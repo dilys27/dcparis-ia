@@ -3,4 +3,4 @@
 # Intelligence Artificielle
 
 ## Cours n°1 :
-Rappel + Exercices Algorithmiques
+Rappel + Exercices
