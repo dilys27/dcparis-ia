@@ -2,5 +2,5 @@
 
 # Intelligence Artificielle
 
-# Cours n°1
-## Rappel + Exercices Algorithmiques
+## Cours n°1 :
+Rappel + Exercices Algorithmiques
