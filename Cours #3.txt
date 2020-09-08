@@ -1,0 +1,17 @@
+Intro au machine learning
+
+Apprentissage automatique = Extraction de connaissances à partir de données
+
+Supervisé
+Fournir des paires entrées/sortie, et l'algo trouve une manière de produire la sortie désirée à partir d'une certaine entrée.
+Objectif : Sans intervention humaine, être capable de créer une sortie depuis une entrée qu'il n'a jamais rencontrée auparavant.
+
+Déterminer pour chaque caratéristique (a) une certaine estimation de valeur (y = ∑ai*xi + b).
+
+Non Supervisé
+Seules les données en entrées sont déterminées et aucune sortie connue n'est fournie à l'algo.
+
+- Fournir des données compréhensibles pour la machine.
+- Nettoyer les données (incomplètes, aberrantes...)
+- Modèle de ML 
+- Prédiction
