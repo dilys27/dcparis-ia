@@ -4,3 +4,9 @@
 
 ## Cours n°1 :
 Rappel + Exercices
+
+## Cours n°2 :
+Exercices corrigés Data Visualisation Statistiques descriptives
+
+## Cours n°3 :
+Evaluation Data Visualisation Statistiques descriptives
