@@ -12,4 +12,4 @@ Exercices corrigés Data Visualisation Statistiques descriptives
 Evaluation Data Visualisation Statistiques descriptives + Intro au Machine Learning
 
 ## Cours n°4 :
-Présentation Projet Data Visualisation
+Présentation Projet Data Visualisation + Modèle Linéaire Exo
