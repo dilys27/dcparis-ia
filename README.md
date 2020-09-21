@@ -16,3 +16,6 @@ Présentation Projet Data Visualisation + Modèle Linéaire Exo
 
 ## Cours n°5 :
 Random Forest IRIS
+
+## Cours n°6 :
+Correction Exo Breast Cancer + Exercice modèle CARD
