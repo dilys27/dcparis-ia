@@ -19,3 +19,6 @@ Random Forest IRIS
 
 ## Cours n°6 :
 Correction Exo Breast Cancer + Exercice modèle CARD
+
+## Cours n°7 :
+Correction Exo CART + Projet noté ML
