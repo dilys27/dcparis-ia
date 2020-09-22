@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="L-Weight <= 2.5\ngini = 0.563\nsamples = 437\nvalue = [31, 208, 198]"] ;
+1 [label="R-Distance <= 1.5\ngini = 0.461\nsamples = 171\nvalue = [12, 41, 118]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="L-Distance <= 2.5\ngini = 0.498\nsamples = 32\nvalue = [3, 21, 8]"] ;
+1 -> 2 ;
+3 [label="gini = 0.611\nsamples = 12\nvalue = [2, 4, 6]"] ;
+2 -> 3 ;
+4 [label="gini = 0.265\nsamples = 20\nvalue = [1, 17, 2]"] ;
+2 -> 4 ;
+5 [label="R-Weight <= 2.5\ngini = 0.349\nsamples = 139\nvalue = [9, 20, 110]"] ;
+1 -> 5 ;
+6 [label="gini = 0.583\nsamples = 49\nvalue = [6, 17, 26]"] ;
+5 -> 6 ;
+7 [label="gini = 0.127\nsamples = 90\nvalue = [3, 3, 84]"] ;
+5 -> 7 ;
+8 [label="L-Distance <= 2.5\ngini = 0.51\nsamples = 266\nvalue = [19, 167, 80]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="R-Weight <= 2.5\ngini = 0.544\nsamples = 104\nvalue = [7, 39, 58]"] ;
+8 -> 9 ;
+10 [label="gini = 0.482\nsamples = 43\nvalue = [4, 29, 10]"] ;
+9 -> 10 ;
+11 [label="gini = 0.352\nsamples = 61\nvalue = [3, 10, 48]"] ;
+9 -> 11 ;
+12 [label="R-Distance <= 3.5\ngini = 0.352\nsamples = 162\nvalue = [12, 128, 22]"] ;
+8 -> 12 ;
+13 [label="gini = 0.133\nsamples = 100\nvalue = [4, 93, 3]"] ;
+12 -> 13 ;
+14 [label="gini = 0.571\nsamples = 62\nvalue = [8, 35, 19]"] ;
+12 -> 14 ;
+}
