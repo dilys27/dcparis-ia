@@ -1,0 +1,17 @@
+Synthèse modèle de ML
+
+- Plus proche voisins (KNeighbosClassifier) = pour les petits jeux de données, bien comme méthode de base, facile à expliquer
+
+- Modèles linéaires (LinearRegression) = bien comme 1er algo à essayer, bien aussi pour de très gros jeux de données
+
+- Bayésiens naïfs (GaussianNB, BernouilliNB, MultinomiaNB) = uniquement pour la classification, plus rapide que les modèles linéaires, souvent moins exact
+
+- Arbres de décisions (DecisionTreeRegressor/DecisionTreeClassifier) = très rapides, visualisation facile à expliquer
+
+- Forêts aléatoires (RandomForestClassifier) = pas adaptés pour des données éparses avec multiples dimensions mais pratiquement tjrs meilleurs que les arbres de décisions uniques
+
+- Boosting d'arbres de décision (GrandientBoostingClassifier) = souvent légèrement plus exact que les forêts aléatoires, plus lent à entraîner mais plus rapides pour les prédications aléatoires et moins gourmand en mémoire
+
+- Séparateurs à vaste marge (LinearSVC) = puissant pour les données de taille moyenne avec des caractéristiques dont le sens est similaire
+
+- Réseaux de neurones (MLPClassifier) = modèles très complexes, temps de traitement long
